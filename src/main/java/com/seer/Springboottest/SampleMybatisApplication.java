@@ -22,7 +22,7 @@ public class SampleMybatisApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(this.cityMapper.findByState("CA"));
+		System.out.println(this.cityMapper.findByState("州A"));
 	}
 
 }

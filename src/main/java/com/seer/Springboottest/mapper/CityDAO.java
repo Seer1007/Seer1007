@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Mapper
 public interface CityDAO{
 
-     @Select("SELECT * FROM CITY WHERE id = #{id}")
+
      City findById(@Param("id") Integer id);
 
 }
